@@ -1,0 +1,9 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class EmailNotification implements NotificationChannel {
+   public EmailNotification() {
+   }
+
+   public void send(String var1) {
+      System.out.println("Mengirim Email: " + var1);
+   }
+}
